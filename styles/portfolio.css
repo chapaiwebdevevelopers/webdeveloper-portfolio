@@ -95,6 +95,10 @@ font-weight: 800;
 }
 
 /* main section style  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section style  */
 .about{
@@ -102,7 +106,20 @@ font-weight: 800;
     background-color:#FFF8F3;
     margin:130px 0px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+font-weight: 400;
+}
+.info-description{
+    font-weight: bold;
+}
 /* what i do section  */
 
 
