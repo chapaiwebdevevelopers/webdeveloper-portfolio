@@ -4,15 +4,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Universal style  */
-*{
-    margin:0px;
-    padding:0px;
-}
+
 
   /* common shared style  */
 body{
 font-family: 'lato','sans-serif';
 font-family: 'open Sans','sans-serif';
+margin:0px;
+padding:0px;
 }
 
 .text-primary{
@@ -72,6 +71,7 @@ main section {
 /* header style  */
 .header{
     background-color:#FFF8F3;
+    padding: 25px 0px;
 }
 .banner{
     padding: 30px 30px 0px 150px; 
@@ -83,6 +83,7 @@ main section {
     /* background-size:contain; */
     justify-content: space-between;
 }
+
 .banner-content{
     max-width: 585px;
 }
@@ -215,5 +216,5 @@ footer .section-title, .section-description {
     width:100%;
 }
 .social-icons a {
-    margin:0px 12px;
+    margin:20px 12px;
 }
