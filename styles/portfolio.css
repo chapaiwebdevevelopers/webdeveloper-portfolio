@@ -121,7 +121,9 @@ font-weight: 400;
     font-weight: bold;
 }
 /* what i do section  */
-
+#what-i-do-description{
+    padding: 30px 150px;
+}
 
 /* resume section  */
 
